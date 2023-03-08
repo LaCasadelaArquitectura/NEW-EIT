@@ -1,0 +1,66 @@
+@media screen and (max-width:470px), (orientation: portrait){
+    html{
+     font-size: 8px;
+    }
+    
+    header{
+        
+    font-size: 1.5rem;
+    flex-wrap: nowrap;
+    
+    }
+    
+    header h1{
+      padding-left: 3rem;
+        
+    }
+    
+    header a img{
+        align-self: center;
+    width: 18rem;
+    height: auto;
+    
+    }
+    
+    header a img:hover{
+        width: 22rem;
+        height: auto;
+        transition: all 0.5s ease-in-out 0.1s;
+    }
+    main{
+    gap: 0.1rem;
+    
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+    
+    .canva{
+        width: 90%;
+        min-height: 30rem;
+        
+    }
+    .mainvr{
+    
+        gap: 5rem;
+    }
+    }
+    
+    @keyframes borderglow {
+        0%{ opacity: 0.3;}
+        50%{ opacity: 1}
+        100%{opacity: 0.3;}
+     }
+     
+     @keyframes bordermove {
+         0%{background: linear-gradient(to top right, #E3C900, #003657 70%);}
+         12.5%{background: linear-gradient(to top, #E3C900, #003657 70%);}
+         25%{background: linear-gradient(to top left, #E3C900, #003657 70%);}
+         37.5%{background: linear-gradient(to left, #E3C900, #003657 70%);}
+         50%{background: linear-gradient(to bottom left, #E3C900, #003657 70%);}
+         67.5%{background: linear-gradient(to bottom, #E3C900, #003657 70%);}
+         75%{background: linear-gradient(to bottom right, #E3C900, #003657 70%);}
+         87.5%{background: linear-gradient(to right, #E3C900, #003657 70%);}
+        100%{background: linear-gradient(to top right, #E3C900, #003657 70%);}
+     }
